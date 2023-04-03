@@ -1,2 +1,2 @@
-num = 2
+num = 5
 print(num)
