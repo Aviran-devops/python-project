@@ -15,7 +15,7 @@ pipeline {
         }
         stage('run python') {
             steps {
-               sh python python\-project/main.py
+               sh 'python python\-project/main.py'
             }
         }
     }
