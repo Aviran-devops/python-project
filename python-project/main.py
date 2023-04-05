@@ -1,2 +1,2 @@
 num = 6
-print(num)
+print('Aviran Aviv')
