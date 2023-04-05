@@ -16,7 +16,7 @@ pipeline {
         stage('run python') {
             steps {
                checkout scm
-               sh 'python python\-project/main.py'
+               sh 'python python\\-project/main.py'
             }
         }
     }
