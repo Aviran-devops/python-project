@@ -13,5 +13,10 @@ pipeline {
                 echo 'heloo poll scm'
             }
         }
+        stage('run python') {
+            steps {
+                sh python project\-python/main.py
+            }
+        }
     }
 }
